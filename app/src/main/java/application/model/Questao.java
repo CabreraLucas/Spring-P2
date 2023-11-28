@@ -38,6 +38,12 @@ public class Questao {
     public void setEnunciado(String enunciado) {
         this.enunciado = enunciado;
     }
+    public Quiz getQuiz() {
+        return quiz;
+    }
+    public void setQuiz(Quiz quiz) {
+        this.quiz = quiz;
+    }
     public Set<Alternativa> getAlternativas() {
         return alternativas;
     }
