@@ -15,7 +15,7 @@ import application.repository.AlternativaRepository;
 
 @Controller
 @RequestMapping("/alternativa")
-public class AternativaController {
+public class AlternativaController {
     @Autowired
     private AlternativaRepository alternativaRepo;
     private QuestaoRepository questaoRepo;
