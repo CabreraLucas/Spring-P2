@@ -1,5 +1,9 @@
 package application.repository;
 
-public class QuestaoRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import application.model.Questao;
+
+public interface QuestaoRepository extends CrudRepository<Questao, Long> {
     
 }
